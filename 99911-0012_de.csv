@@ -1,0 +1,28 @@
+﻿Tabelle: 99911-0012
+Internationale Indikatoren - Wirtschaft und Finanzen:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Staaten, Jahre;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Internationale Indikatoren;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;1990;;1991;;1992;;1993;;1994;;1995;;1996;;1997;;1998;;1999;;2000;;2001;;2002;;2003;;2004;;2005;;2006;;2007;;2008;;2009;;2010;;2011;;2012;;2013;;2014;;2015;;2016;;2017;;2018;;2019;;2020;;2021;;2022;;2023;;2024;
+Deutschland;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Bruttoinlandsprodukt (BIP) (jeweilige Preise);Mrd. US $;1604,5;e;1882,5;e;2146,1;e;2080,1;e;2220,2;e;2595,3;e;2507,4;e;2221,5;e;2250,8;e;2216,1;e;1967,8;e;1966,4;e;2100,9;e;2534,1;e;2851,0;e;2895,0;e;3046,5;e;3484,5;e;3808,4;e;3476,0;e;3471,0;e;3824,2;e;3600,2;e;3808,1;e;3966,8;e;3423,9;e;3536,8;e;3761,8;e;4053,8;e;3957,6;e;3937,0;e;4351,2;e;4166,9;e;4527,0;e;4658,5;e
+BIP je Einwohner (jeweilige Preise);US $;20323;e;23539;e;26660;e;25697;e;27360;e;31919;e;30779;e;27254;e;27636;e;27217;e;24158;e;24122;e;25753;e;31074;e;35001;e;35593;e;37530;e;43022;e;47154;e;43189;e;43233;e;47638;e;44764;e;47220;e;48983;e;41915;e;42949;e;45511;e;48897;e;47629;e;47342;e;52301;e;49725;e;53565;e;54990;e
+BIP (reale Veränderung zum Vorjahr);Prozent;5,7;e;5,0;e;2,0;e;-1,0;e;2,6;e;1,5;e;1,0;e;1,9;e;2,1;e;2,1;e;2,9;e;1,6;e;-0,2;e;-0,5;e;1,2;e;0,9;e;3,9;e;2,9;e;0,9;e;-5,5;e;4,1;e;3,8;e;0,5;e;0,4;e;2,2;e;1,7;e;2,3;e;2,7;e;1,1;e;1,0;e;-4,1;e;3,7;e;1,4;e;-0,3;e;-0,2;e
+Inflationsrate;Prozent;2,7;e;3,5;e;5,0;e;4,5;e;2,7;e;1,7;e;1,3;e;1,5;e;0,6;e;0,6;e;1,4;e;1,9;e;1,3;e;1,1;e;1,8;e;1,9;e;1,8;e;2,3;e;2,8;e;0,2;e;1,1;e;2,5;e;2,2;e;1,6;e;0,8;e;0,7;e;0,4;e;1,7;e;1,9;e;1,4;e;0,4;e;3,2;e;8,7;e;6,0;e;2,5;e
+BWS: Sektor Landwirtschaft (Anteil am BIP);Prozent;-;;1,1;e;1,0;e;1,0;e;1,0;e;1,0;e;1,1;e;1,0;e;1,0;e;1,0;e;1,0;e;1,1;e;0,9;e;0,8;e;0,9;e;0,7;e;0,7;e;0,8;e;0,8;e;0,7;e;0,8;e;0,9;e;0,9;e;0,9;e;0,9;e;0,7;e;0,7;e;0,9;e;0,7;e;0,8;e;0,7;e;0,7;e;1,0;e;0,8;e;0,8;e
+BWS: Produzierendes Gewerbe (Anteil am BIP);Prozent;37,3;e;33,3;e;32,3;e;30,3;e;29,8;e;29,3;e;28,4;e;28,1;e;27,9;e;27,3;e;27,3;e;26,6;e;25,8;e;25,6;e;25,8;e;25,7;e;26,3;e;26,5;e;26,1;e;23,9;e;26,1;e;26,3;e;26,6;e;25,9;e;26,0;e;25,9;e;26,2;e;26,1;e;25,9;e;25,6;e;25,4;e;25,3;e;25,7;e;27,3;e;25,8;e
+BWS: Dienstleistungssektor (Anteil am BIP);Prozent;-;;56,5;e;57,6;e;59,4;e;59,4;e;60,2;e;61,0;e;61,4;e;61,5;e;61,7;e;61,7;e;62,4;e;63,4;e;63,5;e;63,4;e;63,7;e;63,1;e;62,2;e;62,6;e;64,6;e;62,7;e;62,0;e;61,8;e;62,3;e;62,3;e;62,6;e;62,3;e;62,3;e;62,7;e;62,9;e;63,7;e;63,4;e;63,4;e;63,2;e;63,9;e
+__________
+"Quellen:
+- Weltwirtschaftsausblick des Internationalen Währungsfonds
+  (IMF-WEO):
+Bruttoinlandsprodukt (BIP) (jeweilige Preise)
+BIP je Einwohner (jeweilige Preise)
+BIP (reale Veränderung zum Vorjahr)
+Inflationsrate
+
+- World Development Indicators, Weltbank:
+BWS: Sektor Landwirtschaft (Anteil am BIP)
+BWS: Produzierendes Gewerbe (Anteil am BIP)
+BWS: Dienstleistungssektor (Anteil am BIP)"
+© Statistisches Bundesamt (Destatis), 2026
+Stand: 06.05.2026 / 11:02:30
