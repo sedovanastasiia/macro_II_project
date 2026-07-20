@@ -1,0 +1,72 @@
+\documentclass[11pt]{article}
+
+% ------------------------------------------------
+% Packages
+% ------------------------------------------------
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\setlist[itemize]{noitemsep,topsep=2pt}
+\setlist[enumerate]{noitemsep,topsep=2pt}
+
+% ------------------------------------------------
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Research Proposal}}\\[0.4em]
+    {\large Replication and extension of the paper 'The macroeconomic effects of oil supply news:  Evidence from OPEC announcements' by D. Känzig}\\[0.6em]
+
+    \textbf{Author:} Yashna Kumar, Anastasiia Sedova\\
+    \textbf{Course:} Advanced Macroeconomic Analysis II\\
+    \textbf{Date:} \today
+\end{center}
+
+\vspace{0.5cm}
+
+%------------------------------------------------
+\section{Motivation and Research Question}
+\textbf{From the paper:} The identification strategy in this paper is motivated by the following observations. The oil market is dominated by a big player, OPEC, that makes regular announcements about its production plans. OPEC is closely watched by markets and its announcements can lead to significant market reactions. This motivates the use of high-frequency identification techniques. The idea is to construct a series of highfrequency surprises around OPEC announcements that can be used to identify a structural oil supply news shock.
+\section{Scope of Replication}
+
+\section{Planned Extension}
+
+\section{Data}
+
+
+\section{Empirical Strategy}
+
+\section{Expected Results}
+
+\textbf{From the paper:} Oil supply news shocks have statistically and economically  significant effects. Negative news about future oil supply leads to a large, immediate increase in oil prices, a gradual but significant fall in world oil production and a significant increase in world oil inventories. Global economic activity does not change significantly on impact but then starts to fall persistently. This has consequences for the U.S. economy: industrial production falls and consumer prices rise significantly. I also show that oil supply news contribute meaningfully to historical variations in the oil price.Studying various propagation channels of oil supply news, I find that oil price and inflation expectations rise significantly while uncertainty indicators are hardly affected—consistent with the interpretation of a news shock.
+
+\section{References}
+
+\bibliographystyle{apalike}
+
+\begin{thebibliography}{9}
+
+\bibitem{}
+Author (Year).
+\textit{Paper title.}
+Journal.
+
+\bibitem{}
+Author (Year).
+\textit{Paper title.}
+Journal.
+
+\bibitem{}
+Author (Year).
+\textit{Paper title.}
+Journal.
+
+\end{thebibliography}
+
+\end{document}
