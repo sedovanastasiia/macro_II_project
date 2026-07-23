@@ -31,20 +31,41 @@
 \vspace{0.5cm}
 
 %------------------------------------------------
-\section{Motivation and Research Question}
-\textbf{From the paper:} The identification strategy in this paper is motivated by the following observations. The oil market is dominated by a big player, OPEC, that makes regular announcements about its production plans. OPEC is closely watched by markets and its announcements can lead to significant market reactions. This motivates the use of high-frequency identification techniques. The idea is to construct a series of highfrequency surprises around OPEC announcements that can be used to identify a structural oil supply news shock.
-\section{Scope of Replication}
+\section*{About the Paper}
+In the original paper 'The macroeconomic effects of oil supply news: Evidence from OPEC announcements’ D. Känzig investigates the effects of the oil supply news shocks on the oil prices and key macroeconomic indicators for the world and US. To identify a structural oil supply news shock, the author captures the variation in high-frequency oil futures prices around the time of regular announcements from OPEC. 
 
-\section{Planned Extension}
+The data is constrained to the period 1983-2017. The author uses OPEC press releases for the period, which amounts to 119 announcements. 'Based on this data, D. Känzig constructs a series of oil supply surprises by taking the (log) difference of the futures price on the day of the OPEC announcement and the price on the last trading day before the announcement.' The daily surprises are aggregated to a monthly series. 'In particular, I use the first principal component of the surprises based on WTI crude futures contracts with maturities ranging from one month to one year.'
 
-\section{Data}
+For the estimation, 
 
 
-\section{Empirical Strategy}
+Methodology: the author uses an oil market VAR model
 
-\section{Expected Results}
+The findings show that negative news shocks lead to an increase in oil prices, a fall in world oil production and an increase in world oil inventories. Relevant to the U.S. economy, their industrial production falls and consumer prices rise significantly. The paper also finds that oil supply news contribute to historical variations in the oil price.
 
-\textbf{From the paper:} Oil supply news shocks have statistically and economically  significant effects. Negative news about future oil supply leads to a large, immediate increase in oil prices, a gradual but significant fall in world oil production and a significant increase in world oil inventories. Global economic activity does not change significantly on impact but then starts to fall persistently. This has consequences for the U.S. economy: industrial production falls and consumer prices rise significantly. I also show that oil supply news contribute meaningfully to historical variations in the oil price.Studying various propagation channels of oil supply news, I find that oil price and inflation expectations rise significantly while uncertainty indicators are hardly affected—consistent with the interpretation of a news shock.
+
+\section*{Planned replication and extension of the paper}
+
+{Scope of Replication}
+
+{Planned Extension}
+
+We want to focus on Brent crude futures as it is the relevant benchmark for pricing oil in Germany.
+
+Planned period 1991-2017 (?). Maybe extension to further years.
+
+Data used: Production sector output (Germany), Consumer price index (Germany)
+
+{Data}
+
+
+{Empirical Strategy}
+
+{Limitations} shorter period
+
+{Expected Results}
+
+
 
 \section{References}
 
