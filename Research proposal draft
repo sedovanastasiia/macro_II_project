@@ -32,16 +32,13 @@
 
 %------------------------------------------------
 \section*{About the Paper}
-In the original paper 'The macroeconomic effects of oil supply news: Evidence from OPEC announcements’ D. Känzig investigates the effects of the oil supply news shocks on the oil prices and key macroeconomic indicators for the world and US. To identify a structural oil supply news shock, the author captures the variation in high-frequency oil futures prices around the time of regular announcements from OPEC. 
+In the original paper 'The macroeconomic effects of oil supply news: Evidence from OPEC announcements’ D. Känzig investigates the effects of the oil supply news shocks on the oil prices and key macroeconomic indicators for the world and the U.S. The main challenge in estimating the macroeconomic effects of oil supply shocks is separating exogenous supply disturbances from changes in oil prices driven by global economy. To identify a structural oil supply news shock, the author employs a novel approach by exploiting the variation in high-frequency oil futures prices around the time of regular announcements from OPEC. 
 
-The data is constrained to the period 1983-2017. The author uses OPEC press releases for the period, which amounts to 119 announcements. 'Based on this data, D. Känzig constructs a series of oil supply surprises by taking the (log) difference of the futures price on the day of the OPEC announcement and the price on the last trading day before the announcement.' The daily surprises are aggregated to a monthly series. 'In particular, I use the first principal component of the surprises based on WTI crude futures contracts with maturities ranging from one month to one year.'
+The \textbf{data} is constrained to the period 1983-2017. The author uses OPEC press releases for the period, which amounts to 119 announcements. Based on the timing of announcements, D. Känzig constructs a series of oil supply surprises by taking the (log) difference of the futures price on the day of the OPEC announcement and the price on the day before the announcement. 
 
-For the estimation, 
+For the \textbf{estimation}, the author uses the aggregated monthly series of the surprises as an external instrument in an oil market VAR model to identify a structural oil supply news shock. The identifying assumption is that the surprises are correlated with structural oil supply news but are otherwise uncorrelated with the remaining structural shocks in the VAR. This approach is also complemented by a heteroskedasticity-based estimator. It accounts for background noise and other confounding shocks during the event window.
 
-
-Methodology: the author uses an oil market VAR model
-
-The findings show that negative news shocks lead to an increase in oil prices, a fall in world oil production and an increase in world oil inventories. Relevant to the U.S. economy, their industrial production falls and consumer prices rise significantly. The paper also finds that oil supply news contribute to historical variations in the oil price.
+The \textbf{findings} show that negative news shocks lead to an increase in oil prices, a fall in world oil production and an increase in world oil inventories. Relevant to the U.S. economy, their industrial production falls and consumer prices rise significantly. The paper also finds that oil supply news contribute to historical variations in the oil price.
 
 
 \section*{Planned replication and extension of the paper}
