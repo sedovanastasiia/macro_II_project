@@ -1,20 +1,24 @@
-\documentclass[11pt]{article}
+\documentclass[12pt,a4paper]{article}
 
-% ------------------------------------------------
-% Packages
-% ------------------------------------------------
-\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{geometry}
+\geometry{
+    left=3.3cm,
+    right=3.3cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+\usepackage{times}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{setspace}
+\onehalfspacing
 \usepackage{enumitem}
 \usepackage{hyperref}
-
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.5em}
 \setlist[itemize]{noitemsep,topsep=2pt}
 \setlist[enumerate]{noitemsep,topsep=2pt}
-
 % ------------------------------------------------
 
 \begin{document}
@@ -28,20 +32,20 @@
     \textbf{Date:} \today
 \end{center}
 
-\vspace{0.5cm}
+\vspace{0.2cm}
 
 %------------------------------------------------
 \section*{About the Paper}
-In the original paper 'The macroeconomic effects of oil supply news: Evidence from OPEC announcements’ D. Känzig investigates the effects of the oil supply news shocks on the oil prices and key macroeconomic indicators for the world and the U.S. The main challenge in estimating the macroeconomic effects of oil supply shocks is separating exogenous supply disturbances from changes in oil prices driven by global economy. To identify a structural oil supply news shock, the author employs a novel approach by exploiting the variation in high-frequency oil futures prices around the time of regular announcements from OPEC. 
+In the original paper 'The macroeconomic effects of oil supply news: Evidence from OPEC announcements’ D. Känzig investigates the effects of the oil supply news shocks on the oil prices and key macroeconomic indicators for the world and the U.S. The main challenge in estimating the macroeconomic effects of oil supply shocks is separating exogenous supply disruptions from changes in oil prices driven by global economy. To identify a structural oil supply shock, the author employs a novel approach by exploiting the variation in high-frequency oil futures prices around the time of regular announcements from OPEC. 
 
-The \textbf{data} is constrained to the period 1983-2017. The author uses OPEC press releases for the period, which amounts to 119 announcements. Based on the timing of announcements, D. Känzig constructs a series of oil supply surprises by taking the (log) difference of the futures price on the day of the OPEC announcement and the price on the day before the announcement. 
+The \textbf{data} is constrained to the period 1983-2017. The author uses OPEC press releases for the period, which amounts to 119 announcements. Based on the timing of announcements, D. Känzig constructs a series of oil supply surprises by taking the log difference of the futures price on the day of the OPEC announcement and the price on the day before the announcement. The baseline specification includes the monthly data on six variables of interest: the real price of oil, world oil production, world oil inventories, world industrial production, U.S. industrial production and the U.S. consumer price index (CPI).
 
 For the \textbf{estimation}, the author uses the aggregated monthly series of the surprises as an external instrument in an oil market VAR model to identify a structural oil supply news shock. The identifying assumption is that the surprises are correlated with structural oil supply news but are otherwise uncorrelated with the remaining structural shocks in the VAR. This approach is also complemented by a heteroskedasticity-based estimator. It accounts for background noise and other confounding shocks during the event window.
 
 The \textbf{findings} show that negative news shocks lead to an increase in oil prices, a fall in world oil production and an increase in world oil inventories. Relevant to the U.S. economy, their industrial production falls and consumer prices rise significantly. The paper also finds that oil supply news contribute to historical variations in the oil price.
 
 
-\section*{Planned replication and extension of the paper}
+\section*{Planned Replication and Extension of the Paper}
 
 \subsection*{Aim} 
 
@@ -53,8 +57,8 @@ Our objective is two-fold:
 
 \subsection*{Data Sources}
 \begin{itemize}
-\item German industrial production (monthly) — Deutsche Bundesbank
-\item German Consumer Price Index (monthly) — ???????
+\item German industrial production (monthly) — Deutsche Bundesbank, Statistisches Bundesamt
+\item German Consumer Price Index (monthly) — Statistisches Bundesamt
 \item German short-term interest rate (call money/interbank rate) — FRED
 \item Brent crude oil spot and futures prices (daily) — Bloomberg
 \item OPEC meeting announcements — Känzig (2021)
@@ -88,26 +92,14 @@ We expect the Brent-based oil supply news shocks to be highly correlated with th
 
 
 
-\section{References}
+
 
 \bibliographystyle{apalike}
 
 \begin{thebibliography}{9}
 
-\bibitem{}
-Author (Year).
-\textit{Paper title.}
-Journal.
-
-\bibitem{}
-Author (Year).
-\textit{Paper title.}
-Journal.
-
-\bibitem{}
-Author (Year).
-\textit{Paper title.}
-Journal.
+\bibitem{Kaenzig2021}
+K{\"a}nzig, D.~R. (2021): The Macroeconomic Effects of Oil Supply News: Evidence from OPEC Announcements. \textit{American Economic Review}, 111(4), 1092--1125.
 
 \end{thebibliography}
 
