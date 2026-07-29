@@ -51,7 +51,7 @@ We aim to employ \textbf{data} from Känzig (2021) on OPEC meeting announcements
 
 Our \textbf{empirical strategy} is as follows: Firstly, we replicate Känzig's identification strategy by constructing monthly oil supply news shock from high-frequency WTI futures price movements around OPEC announcements. Next, we replace WTI futures with Brent futures to construct an alternate measure. Both series are compared using correlation analysis and narrative evidence. Then, a Proxy SVAR is estimated using the oil supply news shock as an external instrument for the structural oil supply shock. We evaluate the relevance of the instrument using first-stage statistics. Further, we estimate IRFs from the identified SVAR to analyse the effects on oil prices, world oil production, world oil inventories, world industrial production, German industrial production and German inflation. Finally, we conduct robustness checks using Känzig's heteroskedasticity-based identification approach to account for background noise.
 
-We \textbf{expect} identification to be robust to the choice of crude oil benchmark. For Germany, we expect positive oil supply news shocks to increase oil prices, reduce industrial production, and exert upward pressure on inflation.
+We \textbf{expect} identification to be robust to the choice of crude oil benchmark. For Germany, we expect negative oil supply news shocks to increase oil prices, reduce industrial production, and exert upward pressure on inflation.
 
 
 
