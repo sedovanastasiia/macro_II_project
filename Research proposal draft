@@ -9,6 +9,13 @@
 }
 
 \usepackage{times}
+\usepackage{titlesec}
+
+\titleformat{\section}
+{\large\bfseries}
+{}{0em}{}
+\titlespacing*{\section}{0pt}{1ex}{0.4ex}
+
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{setspace}
@@ -16,9 +23,9 @@
 \usepackage{enumitem}
 \usepackage{hyperref}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.5em}
-\setlist[itemize]{noitemsep,topsep=2pt}
-\setlist[enumerate]{noitemsep,topsep=2pt}
+\setlength{\parskip}{0.4em}
+\setlist[itemize]{noitemsep,topsep=1pt}
+\setlist[enumerate]{noitemsep,topsep=1pt}
 % ------------------------------------------------
 
 \begin{document}
@@ -30,6 +37,7 @@
     \textbf{Author:} Yashna Kumar, Anastasiia Sedova\\
     \textbf{Course:} Advanced Macroeconomic Analysis II\\
     \textbf{Date:} \today
+\vspace{0.3cm}
 \end{center}
 
 
@@ -37,22 +45,22 @@
 \section*{About the Paper}
 In the original paper `The macroeconomic effects of oil supply news: Evidence from OPEC announcements’, D. Känzig investigates the effects of the oil supply news shocks on the oil prices and key macroeconomic indicators for the world and the U.S. The main challenge in estimating the macroeconomic effects of oil supply shocks is separating exogenous supply disruptions from changes in oil prices driven by global economy. To identify a structural oil supply shock, the author employs a novel approach by exploiting the variation in high-frequency oil futures prices around the time of regular announcements from OPEC. 
 
-The \textbf{data} is constrained to the period 1983-2017. The author uses OPEC press releases for the period, which amounts to 119 announcements. Based on the timing of announcements, D. Känzig constructs a series of oil supply surprises by taking the log difference of the futures price on the day of the OPEC announcement and the price on the day before the announcement. The baseline specification includes the monthly data on six variables of interest: the real price of oil, world oil production, world oil inventories, world industrial production, U.S. industrial production and the U.S. consumer price index (CPI).
+The \textbf{data} is constrained to the period 1983-2017. The author uses OPEC press releases for the period, which amounts to 119 announcements. Based on the timing of announcements, D. Känzig constructs a series of oil supply surprises by taking the log difference of the futures price on the day of the announcement and the price on the day before it. The baseline specification includes the monthly data on six variables of interest: the real price of oil, world oil production, world oil inventories, world industrial production, U.S. industrial production and the U.S. consumer price index.
 
-For the \textbf{estimation}, the author uses the aggregated monthly series of the surprises as an external instrument in an oil market VAR model to identify a structural oil supply news shock. The identifying assumption is that the surprises are correlated with structural oil supply news but are uncorrelated with the remaining structural shocks in the VAR. This approach is also complemented by a heteroskedasticity-based estimator. It accounts for background noise and other confounding shocks during the event window.
+For the \textbf{estimation}, the author uses the aggregated monthly series of the surprises as an external instrument in an oil market VAR model. The identifying assumption is that the surprises are correlated with structural oil supply news but are uncorrelated with the remaining structural shocks in the VAR. This approach is also complemented by a heteroskedasticity-based estimator. It accounts for background noise and other confounding shocks during the event window.
 
 The \textbf{findings} show that negative news shocks lead to an increase in oil prices, a fall in world oil production and an increase in world oil inventories. Relevant to the U.S. economy, their industrial production falls and consumer prices rise significantly. The paper also finds that oil supply news contribute to historical variations in the oil price.
 
+
 \section*{Planned Replication and Extension of the Paper}
 
-Our \textbf{objective} is two-fold. We aim to examine whether Känzig's identification of oil supply news shocks is robust to replacing WTI crude oil futures with Brent crude oil futures. The motivation behind this is that WTI serves as a primary benchmark in the U.S. when trading oil contracts while Brent crude is used as a benchmark internationally. Thus, Brent may better capture the information relevant for non-U.S. economies. Further, we aim to analyse the effects of oil supply news shocks on oil prices and the German economy over a similar time span (1990-2017). This is to verify the external validity of Känzig's findings outside the U.S. Germany is an informative case study as it is highly dependent on imported energy, and more directly exposed to Brent-priced oil than the U.S. However, one of our \textbf{limitations} is that we use a shorter sample as we are constrained by macroeconomic data available for unified Germany.
+Our \textbf{objective} is two-fold. First, we aim to replicate Känzig's identification strategy using the oil supply news instrument. The main specification in Känzig's paper is based on WTI crude oil futures, highlighting the U.S. focus of the paper. However, he also constructs a Brent-based instrument as a robustness check in the appendix. We aim to replicate both specifications and compare them to verify that the identification of oil supply news shocks is robust to the choice of crude oil benchmark. Second, we plan to extend the analysis by examining the macroeconomic effects of these identified oil supply news shocks on the German economy over the period 1990-2017 using the Brent-based specification, as Brent is the relevant benchmark for international oil markets. This allows us to assess the external validity of Känzig's findings outside the U.S. Germany is an informative case study as it is highly dependent on imported energy, and more directly exposed to Brent-priced oil than the U.S. One of the \textbf{limitations} of our analysis is that we use a shorter sample period, constrained by availability of macroeconomic data for unified Germany.
 
-We aim to employ \textbf{data} from Känzig (2021) on OPEC meeting announcements, World crude-oil production, World oil inventories, and World economic activity or world industrial production. We source German industrial production from the Deutsche Bundesbank and the Statistisches Bundesamt, German Consumer Price Index from the Statistisches Bundesamt, and Brent crude oil spot and futures prices from Bloomberg. 
+We aim to employ \textbf{data} from Känzig (2021) on WTI and Brent futures settlement prices, OPEC meeting announcements, world crude-oil production, world oil inventories, and world economic activity or world industrial production. We source German industrial production from the Deutsche Bundesbank and the Statistisches Bundesamt, and German Consumer Price Index from the Statistisches Bundesamt. 
 
-Our \textbf{empirical strategy} is as follows: Firstly, we replicate Känzig's identification strategy by constructing monthly oil supply news shock from high-frequency WTI futures price movements around OPEC announcements. Next, we replace WTI futures with Brent futures to construct an alternate measure. Both series are compared using correlation analysis and narrative evidence. Then, a Proxy SVAR is estimated using the oil supply news shock as an external instrument for the structural oil supply shock. We evaluate the relevance of the instrument using first-stage statistics. Further, we estimate IRFs from the identified SVAR to analyse the effects on oil prices, world oil production, world oil inventories, world industrial production, German industrial production and German inflation. Finally, we conduct robustness checks using Känzig's heteroskedasticity-based identification approach to account for background noise.
+Our \textbf{empirical strategy} is as follows: First, we replicate Känzig's identification strategy by constructing monthly oil supply news shock series from high-frequency WTI and Brent crude oil futures price movements around OPEC announcements. We compare the two series using correlation analysis and narrative evidence. We then estimate a Proxy SVAR using the Brent-based oil supply news shock as an external instrument for the structural oil supply shock. The relevance of the instrument is evaluated using first-stage statistics. Next, we estimate IRFs to analyse the effects of the identified shock on the real price of oil, world oil production, world oil inventories, world industrial production, German industrial production, and German consumer prices. Finally, we conduct robustness checks using Känzig's heteroskedasticity-based identification approach to account for background noise. The whole analysis will be implemented in \textbf{Python}, closely following the original MATLAB methodology.
 
 We \textbf{expect} identification to be robust to the choice of crude oil benchmark. For Germany, we expect negative oil supply news shocks to increase oil prices, reduce industrial production, and exert upward pressure on inflation.
-
 
 
 \bibliographystyle{apalike}
